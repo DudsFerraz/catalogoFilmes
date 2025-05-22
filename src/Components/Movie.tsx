@@ -14,7 +14,6 @@ export default function Movie({ movie, onVerMais }: MovieProps) {
       </div>
       <div className="movie-details">
         <p className="movie-genre">{movie.genero}</p>
-        <p className="movie-id">ID: {movie.id}</p>
       </div>
       <button onClick={() => onVerMais(movie)} className="submit-button">Ver mais</button>
     </div>
